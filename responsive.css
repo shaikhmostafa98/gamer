@@ -1,0 +1,23 @@
+@media screen and (min-width:576px) and (max-width:960px){
+    header{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+    }
+
+    
+    @media screen  and (max-width:576px){
+        header{
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 1px 0px 1px rgb(162, 20, 20);
+        }
+        nav>ul{
+            flex-direction: column;
+        }
+        nav>ul>li{
+            margin: 10px 0;
+        }
+        }
+        
