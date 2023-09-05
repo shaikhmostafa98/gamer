@@ -67,7 +67,7 @@ nav>ul>li>a{
     background: linear-gradient(180deg, #dd21c1fc 45%, #aa53dc 55%);
     color: transparent; 
     -webkit-background-clip: text;
-    /* font-size: 54px; */
+    font-size: 50px;
     font-weight: bolder;
     padding: 10px 0;
 }
@@ -186,7 +186,7 @@ background-size: cover;
     width: 250px;
    
 }
-.card>img:hover{
+.card:hover .image{
     background-color: #000;
     opacity: 50%;
 }
@@ -326,16 +326,47 @@ footer{
 }
 
 .showtext{
-    color: #fff;
-    background-color: #0000008c;
+    color: #000000;
+    /* background-color: #0000008c; */
     position: relative;
     opacity: 0;
+    font-weight: 700;
     bottom: 200px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 8px;
-    margin: 0 25px;
+    margin: 0 20px;
   }
   .card:hover .showtext{
     opacity: 10;
     transition: 0.5s;
+  }
+  .watch{
+    color: #000000;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  .playinstant{
+
+  }
+  .playinstant{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px 0 200px 0;
+  }
+  .img1{
+    width: 500px;
+    position: relative;
+  } .img2{
+    width: 250px;
+    position: absolute;
+    left: 500px;
+    bottom: -1800px;
+  }
+  .playcard1{
+    text-align: right;
+    padding-right: 200px;
+    padding-top: 180px;
+  }
+  .playcard1>p{
+    
   }
