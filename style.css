@@ -80,6 +80,10 @@ nav>ul>li>a{
     height: 18px;
    
 }
+.lightText{
+    color: #534c64;
+    padding: 5px 0;
+}
 .fa-solid, .fa-regular{
     padding-left: 6px;
     padding-top: 3px;
@@ -181,6 +185,10 @@ background-size: cover;
 .card{
     width: 250px;
    
+}
+.card>img:hover{
+    background-color: #000;
+    opacity: 50%;
 }
 .card>img{
     box-sizing: border-box;
@@ -316,3 +324,18 @@ footer{
 .smalltext{
     color: #fff;
 }
+
+.showtext{
+    color: #fff;
+    background-color: #0000008c;
+    position: relative;
+    opacity: 0;
+    bottom: 200px;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 0 25px;
+  }
+  .card:hover .showtext{
+    opacity: 10;
+    transition: 0.5s;
+  }
