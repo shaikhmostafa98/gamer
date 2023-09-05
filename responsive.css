@@ -18,6 +18,21 @@
         margin-top: 20px;
    
     }
+    .section2{
+        flex-direction: column;
+    }
+    .gamer2{
+        text-align: center !important;
+        width: 400px;
+    }
+    /* --- */
+    .cards{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    
     }
 
     
@@ -48,5 +63,60 @@
         margin-top: 20px;
    
     }
+    .section2{
+        flex-direction: column;
     }
+    .gamer2{
+        text-align: center !important;
+        width: 400px;
         
+    }
+    .gamer2>p{
+        padding: 20px 0;
+    }
+    .gamer1>img{
+        width: 400px !important;
+       
+    }
+    /* ----- */
+    .cards{
+        display: flex;
+        /* padding: 50px 85px; */
+        flex-direction: column;
+    }
+    .card{
+        width:100%;
+        margin: 10px 0;
+    }
+    .card>img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .card>p{text-align: center;}
+    .section4{
+        flex-direction: column;
+    }
+    .textcard{
+        padding: 30px;
+        color: #fff;
+        text-align: justify;
+    }
+    .text2{
+        flex-direction: row;
+        padding: 30px;
+    }
+   .gamesgroup{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 10px;
+   }
+   .games{
+    margin: 0;
+    padding: 0;
+    width: 145px;
+   }
+   .games>img{
+    height: 30px;
+    width: 30px;
+}
+}
